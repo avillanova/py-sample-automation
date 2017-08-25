@@ -1,1 +1,0 @@
-#Locators e metodos exclusivos dessa funcionalidade

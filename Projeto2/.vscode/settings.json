@@ -1,0 +1,32 @@
+{
+    "python.unitTest.unittestArgs": [
+        "-v",
+        "-s",
+        "./python/tests/Funcionalidade"
+    ],
+
+    "workbench.iconTheme": "vscode-icons",
+
+    "python.linting.pylintEnabled": false,
+    "python.formatting.provider": "autopep8",
+    "python.unitTest.unittestEnabled": false,
+    "python.unitTest.pyTestEnabled": false,
+    "python.unitTest.nosetestsEnabled": false,
+
+    // Extension and editor preferences
+
+    "files.insertFinalNewline": true,
+    "editor.fontFamily": "Arial",
+    "editor.fontSize": 14,
+    "editor.rulers": [79],
+    "editor.roundedSelection": false,
+    "explorer.openEditors.visible": 0,
+    "trailing-spaces.trimOnSave": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        ".vscode": true,
+        "**/__pycache__": true,
+        "**/**/*.pyc": true
+    }
+}
