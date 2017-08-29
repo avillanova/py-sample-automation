@@ -19,6 +19,6 @@ def finish():
     driver.quit()
 
 def screenShot(methodName):
-    caminho = "C:/Users/alex.villanova.ext/Documents/develop/automacao/python/Projeto2/resources/files/output/"+methodName+".png"
+    caminho = os.getcwd()+"/resources/files/output/"+methodName+".png"
     #print "ScreenShot em:"+caminho
     driver.save_screenshot(caminho)

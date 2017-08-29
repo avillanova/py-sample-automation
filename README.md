@@ -1,5 +1,7 @@
-#Inicio
-pip install selenium
+#Inicio 
+    pip install selenium
+    pip install pytest-html
+    run pytest --html=report.html
  >Estrutura
 
     {{Nome do Projeto}}
